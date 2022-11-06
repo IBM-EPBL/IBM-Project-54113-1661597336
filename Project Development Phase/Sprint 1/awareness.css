@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans, sans-serif';
+}
+.header{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+.header img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    top: 0px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.content h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.content p{
+    margin-top: 2px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+}
+.health{
+    margin-right: 0;
+    margin-top: 100px;
+}
+.health img{
+    margin-right: 0px;
+    float: right;
+}
+.foods{
+    margin-left: 0px;
+    margin-top: 30px;
+    color: white;
+}
+.foods h1{
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+.foods h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.foods p{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+}
