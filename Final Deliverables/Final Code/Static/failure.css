@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-size: 20px;
+}
+.image img{
+    position: relative;
+    margin-top: 20px;
+    margin-right: 200px;
+    width: 100%;
+    height: 100vh;
+}
+.image h1{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
