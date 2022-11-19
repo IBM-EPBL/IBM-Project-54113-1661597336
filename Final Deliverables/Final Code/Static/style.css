@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background: #000;
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.header .nav-bar{
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30;
+}
+.header .nav-bar .logo{
+    z-index: 1;
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/1.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+.header .nav-bar .logo a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+
+.header .nav-bar .menu{
+    z-index: 2;
+}
+
+.header .nav-bar .menu ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 50px;
+}
+.header .nav-bar .menu ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.8;
+    color: black;
+    -webkit-text-stroke: #fff;
+}
+.header .nav-bar .menu ul li a.active{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+.header .nav-bar .menu ul li a:hover{
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+    color: white;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/3.jpg);
+    -webkit-background-clip: text;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 30px;
+    color: #fff;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
