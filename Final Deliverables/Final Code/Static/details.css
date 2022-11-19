@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background: grey;
+    height: 30px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 20px;
+    padding: 0 100px;
+    font-weight: bolder;
+    align-items: center;
+    position: relative;
+    left: 550px;
+    top: 33px;
+}
+nav ul{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 300%;
+    margin-top: 30px;
+    color: white;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/7.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.detail{
+    margin-left: 20px;
+    margin-top: 500px;
+}
+.details h1{
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.details p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.image img{
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.content h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    line-height: 80px;
+    margin-left: 20px;
+    color: white;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.content p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 0.50px;
+    color: white;
+    margin-left: 30px;
+}
+.pages{
+    color: white;
+}
+.pages h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 20px;
+    color: white;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.pages p{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.causes .img{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.c{
+    font-size: 30px;
+    color: white;
+}
+.c h1{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 80px;
+    margin-left: 20px;
+    color: white;
+    -webkit-text-stroke: 1px #fff;
+    background: url(static/8.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.c h2{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 50px;
+    color: white;
+    margin-left: 20px;
+}
+.c p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.d{
+    width: 50%;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
